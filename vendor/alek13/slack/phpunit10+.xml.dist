@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd"
+         backupGlobals="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         processIsolation="false"
+         stopOnFailure="false"
+>
+    <testsuites>
+        <testsuite name="Package Test Suite">
+            <directory suffix=".php">./tests/</directory>
+            <exclude>tests/TestCase.php</exclude>
+        </testsuite>
+    </testsuites>
+
+    <!-- For PHPUnit 10+ (PHP 8.1+) -->
+    <source>
+        <include>
+            <directory>./src</directory>
+        </include>
+    </source>
+</phpunit>
