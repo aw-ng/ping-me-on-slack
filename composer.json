@@ -1,5 +1,5 @@
 {
-  "name": "badasswp/ping-me-on-slack",
+  "name": "aw-ng/ping-me-on-slack",
   "description": "Get notifications on Slack when changes are made on your WP website.",
   "type": "wordpress-plugin",
   "license": "GPL-2.0-or-later",
